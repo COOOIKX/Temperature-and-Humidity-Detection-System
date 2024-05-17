@@ -1,0 +1,19 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://123.249.47.82:3306/mysql_mqtt?userSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+    username: root
+    password: Mqtt@1912
+  mqtt:
+    url: tcp://123.249.47.82:1883
+    username: springboot
+    password: 123456
+    client:
+      id: springboot_f07be17a_196825
+    default:
+      topic: eps8266-1912
+
+server:
+  port: 9090
+
